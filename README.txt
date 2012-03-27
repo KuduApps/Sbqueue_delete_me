@@ -1,0 +1,2 @@
+Do not replace the web.config or web.cloud.config with the versions given here - these simply provide the environment variables 
+for azure storage account credentials - you may need to replace the web.cloud.config credentials if the 'fromage0121' account is deleted
