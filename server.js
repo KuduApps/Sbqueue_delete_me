@@ -104,7 +104,7 @@ http.createServer(
               })
             }
             else {
-              res.end("First received message did not match, received: " + received.messagetext + ", expecting: " + message1 + "\r\n");
+              res.end("First received message did not match, received: " + receivedMessage.messagetext + ", expecting: " + message1 + "\r\n");
             }
           }
           else {
